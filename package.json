@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "^3.2.2"
+  },
+  "dependencies": {
+    "@nash-io/ramp-widget-sdk": "^0.1.1"
+  }
+}
