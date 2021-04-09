@@ -9,7 +9,21 @@
 </head>
 
 <body>
-  <div data-nash-fiat-ramp-widget />
+  <div class="container">
+    <form>
+      <span class="py-2 is-inline-block">I want to buy </span>
+      <div class="select">
+        <select>
+          <option value="btc">BTC</option>
+          <option value="eth">ETH</option>
+        </select>
+      </div>
+      <span class="py-2 is-inline-block">to</span>
+      <input class="input is-inline" type="text" placeholder="Text input">
+    </form>
+    <div data-nash-fiat-ramp-widget></div>
+  </div>
+
   <script src="/dist/index.js" type="module"></script>
 </body>
 
